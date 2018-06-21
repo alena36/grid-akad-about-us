@@ -1,0 +1,1 @@
+# grid-akad-about-us
