@@ -1,0 +1,47 @@
+.container {
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 1170px;
+}
+
+.ba-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.ba-row + .ba-row {
+	margin-top: 20px;
+}
+
+.ba-row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*="ba-width-"] {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.col-2 {
+	width: calc(50% - 30px);
+}
+
+.col-3 {
+	width: calc(33.33333333333% - 30px);
+}
+
+.col-4 {
+	width: calc(25% - 30px);
+}
+
+.col-6 {
+	width: calc(16.6666667% - 30px);
+}
+
+.offset-9 {
+	margin-left: 75%;
+}
